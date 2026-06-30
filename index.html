@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy 24th Birthday</title>
+
+<style>
+
+body{
+    margin:0;
+    background:linear-gradient(180deg,#080808,#230000,#5a0000,#080808);
+    color:#f7e6b5;
+    font-family:Georgia, serif;
+}
+
+.hero{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero img{
+    width:270px;
+    border-radius:20px;
+    border:4px solid #d4af37;
+    box-shadow:0 0 35px #d4af37;
+}
+
+h1{
+    color:#d4af37;
+    margin-top:25px;
+    font-size:48px;
+    text-shadow:0 0 12px #b8860b;
+}
+
+button{
+    margin-top:30px;
+    padding:16px 40px;
+    font-size:18px;
+    border:none;
+    border-radius:40px;
+    background:#b30000;
+    color:#f7e6b5;
+    cursor:pointer;
+    transition:.4s;
+    box-shadow:0 0 18px #d4af37;
+}
+
+button:hover{
+    background:#d4af37;
+    color:black;
+    transform:scale(1.05);
+}
+
+#message{
+    display:none;
+    max-width:900px;
+    margin:auto;
+    padding:70px 35px;
+    line-height:2;
+    font-size:20px;
+}
+
+#message h2{
+    color:#d4af37;
+    text-align:center;
+    font-size:42px;
+}
+
+p{
+    margin-bottom:25px;
+}
+
+.song{
+    text-align:center;
+    margin-top:80px;
+    padding-bottom:80px;
+}
+
+.song h2{
+    color:#d4af37;
+}
+
+.song a{
+    text-decoration:none;
+}
+
+.song button{
+    background:#d4af37;
+    color:black;
+}
+
+.song button:hover{
+    background:#b30000;
+    color:white;
+}
+
+hr{
+    border:1px solid #7a0000;
+    margin:60px 0;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="hero">
+
+<img src="seti.jpg" alt="Birthday Photo">
+
+<h1>Happy 24th Birthday</h1>
+
+<button onclick="showMessage()">
+Open Your Birthday Letter
+</button>
+
+</div>
+
+<div id="message">
+
+<h2>Happy 24th Birthday!</h2>
+
+<p>It's honestly incredible to think that we've already known each other for two years. Time somehow managed to pass both slowly and quickly, and I'm really grateful that our paths crossed.</p>
+
+<p>Every year adds another chapter to a person's story, but 24 feels like one of those ages where you're not just collecting years—you're shaping the person you'll become. And when I think about you, I don't just think of someone who's fascinated by history. I think of someone who genuinely loves knowledge for its own sake. Whether it's Ancient Egyptian, Chinese, or the countless stories hidden within civilizations, you never stop learning, asking questions, and looking beyond the surface.</p>
+
+<p>I know your favorite deity is Seth. Most people see him only through one lens, but you've always appreciated the complexity behind him—the balance between chaos and order, strength and change. I think that says something about the way you see the world: you don't settle for simple answers, and you're willing to explore ideas that others overlook.</p>
+
+<p>One of the things I admire most is your dream of becoming someone who influences people through knowledge. In a world overflowing with information but often lacking wisdom, that's such a meaningful ambition. Real influence isn't about being the loudest voice; it's about being the one who sparks curiosity, encourages people to think, and leaves them with a deeper understanding than they had before. I truly hope you never lose that passion.</p>
+
+<p>I hope this year brings you opportunities to grow, to discover even more about the subjects you love, and to get one step closer to turning that dream into reality. I hope your love for Egyptology keeps leading you to fascinating discoveries, your curiosity never fades, and your journey with languages continues to open doors to worlds that many people never get to experience.</p>
+
+<p>Thank you for being the kind of friend who makes conversations interesting, who reminds me that learning can be exciting, and who proves that passion is contagious. Here's to many more years of debates, discoveries, random historical facts, and all the moments that make our friendship unique.</p>
+
+<p>May this new year of your life be filled with wisdom, courage, unforgettable experiences, and the determination to leave your mark on the world—not through noise, but through knowledge.</p>
+
+<p>Happy 24th Birthday. Keep chasing history, keep asking impossible questions, keep translating forgotten words, and keep becoming the person who inspires others to learn. I have a feeling that one day, people won't just remember what you knew—they'll remember how you made them want to know more.</p>
+
+<p>Have an amazing birthday. You deserve it.</p>
+
+<hr>
+
+<div class="song">
+
+<h2>One Last Gift ❤️</h2>
+
+<p>
+Thank you for being such an amazing friend.
+This song reminded me of our friendship,
+and I hope every time you hear it,
+you'll remember today.
+</p>
+
+<a href="https://youtu.be/6k8cpUkKK4c?si=vidI9bl7Ls1hyUpP" target="_blank">
+<button>🎵 Play Your Song</button>
+</a>
+
+</div>
+
+</div>
+
+<script>
+
+function showMessage(){
+
+document.getElementById("message").style.display="block";
+
+document.getElementById("message").scrollIntoView({
+behavior:"smooth"
+});
+
+}
+
+</script>
+
+</body>
+</html>
